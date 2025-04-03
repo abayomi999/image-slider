@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Image Slider</title>
+    <style>
+      #slider {
+        width: 400px;
+        height: 300px;
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="slider">
+      <img id="slide" src="/download.jpeg" alt="" />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+<!-- // Use setInterval to change the image every 3 seconds
+setInterval(changeImage, 3000);# How it works
+1. We define an array of image sources (`images`).
+2. We define the current image index (`currentIndex`) and initialize it to 0.
+3. We get a reference to the img element using document.getElementById.
+4. We define a function (`changeImage`) that increments the current index, checks if we've reached the end of the images array, and updates the image source.
+5. We use setInterval to call the changeImage function every 3 seconds (3000 milliseconds).
+
+This code creates a simple image slider that changes images every 3 seconds. You can add more images to the images array and adjust the timing as needed. -->
